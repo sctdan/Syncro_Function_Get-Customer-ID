@@ -1,5 +1,8 @@
 # Function---Get-Customer-ID
-Provided a customer name, this will return the Syncro customer ID as well as the item ID from our SharePoint master client list.  It can match on several fields, helpful for when the customer name may be different ('and' instead of &) or shortened.  In our environement, we have the proper, offical customer name, a 3-char shortname we assign each customer, and then two alternate name fields.
+Provided a customer name, this will return the Syncro customer ID as well as the item ID from our SharePoint master client list.  
+
+It can match on several fields, helpful for when the customer name may be different ('and' instead of &) or shortened.  In our environement, we have the proper, offical customer name, a 3-char shortname, and then two alternate name fields.
+
 The flow will return the Syncro customer ID, the SharePoint list item ID, and the proper full customer name.
 If no match is found, you can define a fallback customer name and ID.
 
